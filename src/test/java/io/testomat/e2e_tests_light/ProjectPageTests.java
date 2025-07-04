@@ -29,7 +29,7 @@ public class ProjectPageTests {
 
         //wait for project to be loaded
 
-        $("h2").shouldHave(Condition.text("Manufacture light"));
+        $("#ember40").shouldHave(Condition.text("Manufacture light"));
     }
 
 }
